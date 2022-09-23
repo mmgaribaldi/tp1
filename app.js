@@ -7,7 +7,7 @@ let app = express()
 app.use(express.static(__dirname +'/public'));
 
 
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, (req, res) => {
   console.log("Ejercicio individual 1 corriendo...")
 })
 
