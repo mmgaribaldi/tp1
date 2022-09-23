@@ -50,6 +50,11 @@
     font-size: 16px;
 }
 
+.seccion{
+    font-size: xx-large;
+    text-align: center;
+}
+
 .titulo{
     font-size: 20px;
     font-weight: bold;
@@ -76,7 +81,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #EBEBEB;
+    background-color: rgba(255, 255, 255, 0.87);
     height: 80%;
     padding: 1%;
     font-size: x-large;
@@ -87,7 +92,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #EBEBEB;
     height: 80%;
     padding: 1%;
     font-size: x-large;
@@ -102,10 +106,22 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-size: 12px;
     align-items: center;
-    flex-wrap: wrap;
     width: 20%;
     height: 50%;
     padding: 1%;
+    background-color: #EBEBEB;
     border: #333333 1px solid;
+}
+
+.precio{
+    font-size: 16px;
+    font-weight: bold;
+    color: forestgreen;
+}
+
+.promo{
+    font-weight: bold;
+    color: red;
 }
