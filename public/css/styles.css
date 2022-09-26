@@ -126,10 +126,26 @@
     color: red;
 }
 
+.labelEinput{
+    display: flex;
+    justify-content: space-between;
+}
+
 .main-register{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.87);
+    height: 80%;
+    padding: 4%;
+    font-size: large;
+}
+
+.main-login{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.87);
     height: 80%;

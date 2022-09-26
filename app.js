@@ -18,3 +18,7 @@ app.get('/', function (req, res) {
 app.get('/registrar', function (req, res) {
   res.sendFile(path.join(viewsPath, 'registrar.html'))
 })
+
+app.get('/login', function (req, res) {
+  res.sendFile(path.join(viewsPath, 'login.html'))
+})
